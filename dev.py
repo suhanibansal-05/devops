@@ -1,11 +1,11 @@
-from flask import flask
+from flask import Flask
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route("/info")
-
 def myinfo():
 	return "i am suhani hi"
+	
 @app.route("/phone")
 def myphone():
 	return "8484026911"
